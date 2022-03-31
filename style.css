@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  background-color: aqua;
+}
+.circle {
+  width: 30rem;
+  height: 30rem;
+  background-color: transparent;
+  border: 1px solid rgb(230, 106, 6);
+  border-radius: 5rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 15rem;
+  position: relative;
+  display: flex;
+}
+.hour {
+  font-size: 80px;
+}
+.minutes {
+  font-size: 80px;
+}
+.seconds {
+  font-size: 80px;
+}
+.mseconds {
+  font-size: 80px;
+}
+.dot {
+  font-size: 30px;
+}
+button {
+  margin: auto;
+  width: 7rem;
+  height: 5rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: rgb(238, 173, 117);
+  background-color: rgb(175, 104, 104);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.btn {
+  width: max-content;
+  margin: auto;
+  display: flex;
+  gap: 3rem;
+}
